@@ -10,7 +10,7 @@ const Form = ({
       </h1>
 
       <p className="desc text-left max-w-md">
-        {type} ams share amazing prompts with the world, and let your imagination run wild with any AI-powered plataform.
+        {type} Share amazing prompts with the world, and let your imagination run wild with any AI-powered plataform.
       </p>
 
       <form
