@@ -1,34 +1,90 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# Chatter Forge
 
-First, run the development server:
+An open-source AI prompting tool to discover, create, and share creative prompts
+
+![Screenshot from 2023-10-07 19-38-23](https://github.com/diegojfcampos/chatter_forge/assets/52011695/33e3c920-cb74-4779-8267-bfa75e6055de)
+
+<div style="display: inline_block"><br> 
+	
+  <img align="center" alt="Diego-Python" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"> 
+  <img align="center" alt="Diego-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg">
+  <img align="center" alt="Diego-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-original-wordmark.svg">
+
+</div>
+
+#### DataBase
+  - MongoDB (Mongo Atlas), 
+
+### Technologies
+  - Next JS
+  - Mongoose
+  - Tailwindcss
+ 
+#### CyberSecurity
+  - bcrypt,
+  - next-auth,
+  - Model Schema Validations,
+  - Google OAuth,
+
+#### Deployment
+  - Vecel
+
+## Dependencies
+```bash
+npm install
+```
+```bash
+ "dependencies": {
+    "autoprefixer": "10.4.15",
+    "bcrypt": "^5.1.1",
+    "mongodb": "^5.8.1",
+    "mongoose": "^7.4.4",
+    "next": "13.4.19",
+    "next-auth": "^4.23.1",
+    "postcss": "8.4.28",
+    "react": "^18.2.0",
+    "react-dom": "18.2.0",
+    "tailwindcss": "3.3.3"
+  }
+```
+    
+#### Testing
+  - Postman
+
+## Documentation
+
+[Documentation](https://documenter.getpostman.com/view/22862786/2s93zCXztX)
+
+## Run Locally
+
+Clone the project
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+  git clone https://github.com/diegojfcampos/chatter_forge.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Go to the project directory
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+```bash
+  cd api_habit_helper
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Install dependencies
 
-## Learn More
+```bash
+  npm install
+```
 
-To learn more about Next.js, take a look at the following resources:
+Start the server
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+  npm run dev
+```
+## Authors
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- [@diegojfcampos](https://www.github.com/diegojfcampos)
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
