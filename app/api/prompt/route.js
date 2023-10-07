@@ -5,7 +5,7 @@ export const GET = async (request) => {
     try{ 
         await connectToDB();
 
-        const prompts = await Prompt.find({}).populare('creator');
+        const prompts = await Prompt.find({}).populate('creator');
 
         return new Response(Json.stringfy(prompts), {
             status: 200
